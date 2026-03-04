@@ -14,20 +14,30 @@ The goal of this practical session is to analyse the activity of bots and humans
 
 ## Setup Instructions
 
-1. **Clone the repository** and navigate into it.
-2. **Create and activate a Python virtual environment** (Python 3.8 or later recommended):
+1. **Use this template** : Click the "Use this template" button at the top of the repository page, then select "Create a new repository". Choose a name for your repository and click "Create repository". For more details, see [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+
+2. **Clone your new repository** and navigate into it:
    ```bash
-   python -m venv venv
-   source venv/bin/activate      # On Windows: venv\Scripts\activate
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   cd YOUR_REPOSITORY_NAME
    ```
-3. **Install JupyterLab**:
+
+3. **Create and activate a Python virtual environment** (Python 3.8 or later recommended):
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate      # On Windows: venv\Scripts\activate
+   ```
+
+4. **Install JupyterLab**:
    ```bash
    pip install jupyterlab
    ```
-4. **Launch JupyterLab** and open `Bots-Template.ipynb`:
+
+5. **Launch JupyterLab** and open `Bots-Template.ipynb`:
    ```bash
    jupyter lab
    ```
-5. Follow the instructions in the notebook. All required Python packages (seaborn, scipy, rabbit-ng, etc.) are installed automatically when you run the first code cell.
 
-**Note:** Your assigned folder number must be set in the notebook’s first section. The dataset is already provided in the `data/` directory.
+6. **Provide your GitHub login and repository name** to the teacher at the start of this assignment.
+
+**Note:** Your assigned folder number must be set in the notebook's first section. The dataset is already provided in the `data/` directory.
