@@ -6,6 +6,8 @@ def assign(df):
     Assign contributor roles (developer, reviewer, merger, reporter, commenter, reactor)
     based on individual activity rows.
     Returns: df_roles with one row per (project, contributor) and counts per role.
+
+    Full paper : https://link.springer.com/content/pdf/10.1007/s10664-021-10061-x.pdf
     """
 
     df_activities = normalize_activities(df)
